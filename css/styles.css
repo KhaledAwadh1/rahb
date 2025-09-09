@@ -15,14 +15,6 @@
   font-display: swap;
 }
 
-
-.alexandria-<uniquifier> {
-  font-family: "Alexandria", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 /* CSS Variables - Color Palette */
 :root {
   --primary-darkest: rgb(80, 66, 66);
@@ -1804,10 +1796,10 @@ a {
   align-items: center;
 }
 
-.projects-section .location{
-    font-size: 0.4rem;
-
+.projects-section .details-button{
+  font-size: 1.1rem;
 }
+
 
   .hero-section .hero-content{
     bottom: 50px;
