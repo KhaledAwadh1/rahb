@@ -15,6 +15,14 @@
   font-display: swap;
 }
 
+
+.alexandria-<uniquifier> {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* CSS Variables - Color Palette */
 :root {
   --primary-darkest: rgb(80, 66, 66);
