@@ -1,15 +1,15 @@
 /* Custom Font Import */
 @font-face {
-  font-family: 'FFShamelFamily';
-  src: url('../assets/fonts/FFShamelFamily-UniqueMedium.otf') format('opentype');
+  font-family: 'Alexandria';
+  src: url('/assets/fonts/Alexandria-Medium.ttf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'FFShamelFamily';
-  src: url('../assets/fonts/FFShamelFamily-UniqueBold.otf') format('opentype');
+  font-family: 'Alexandria';
+  src: url('/assets/fonts/Alexandria-Medium.ttf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@
   --text-primary: var(--primary-darkest);
   --text-secondary: var(--primary-medium);
   --text-white: var(--white);
-  --font-family-primary: 'FFShamelFamily', 'Arabic UI Text', 'Geeza Pro', 'Traditional Arabic', Arial, sans-serif;
+  --font-family-primary: 'Alexandria', 'Arabic UI Text', 'Geeza Pro', 'Traditional Arabic', sans-serif;
 }
 
 /* Global Styles */
@@ -335,12 +335,11 @@ a {
 }
 
 .hero-section .hero-title {
-  font-size: 4rem;
+  font-size: 3.2rem;
   font-weight: bold;
   color: var(--text-primary);
   margin-bottom: 1.5rem;
   line-height: 1.2;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 1s ease-out;
 }
 
@@ -348,10 +347,9 @@ a {
   font-size: 1.2rem;
   color: black;
   line-height: 1.6;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 1s ease-out 0.3s both;
   direction: ltr;
-  text-align: center;
+  text-align: right;
 }
 
 .hero-section::before {
@@ -1680,7 +1678,7 @@ a {
   }
 
   .about-section .profile-button {
-    width: 100%;
+    width: 35%;
     justify-content: center;
     padding: 1rem 1.5rem;
     font-size: 1rem;
