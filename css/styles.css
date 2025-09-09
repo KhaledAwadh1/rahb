@@ -1776,6 +1776,7 @@ a {
   .language-toggle{
     display: none;
   }
+  
 
   .hero-section .hero-title {
     font-size: 2rem;
@@ -1787,6 +1788,18 @@ a {
         justify-content: center;
         margin: 0 auto;
   }
+
+
+
+.specs{
+  display: flex;
+  align-items: center;
+}
+
+.projects-section .location{
+    font-size: 0.4rem;
+
+}
 
   .hero-section .hero-content{
     bottom: 50px;
