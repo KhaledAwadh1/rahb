@@ -1,18 +1,23 @@
 /* Custom Font Import */
+/* تعريف الخط العادي */
 @font-face {
-  font-family: 'FFShamelFamily';
-  src: url('../assets/fonts/FFShamelFamily-UniqueMedium.otf') format('opentype');
-  font-weight: 500;
+  font-family: "FrutigerLTArabic45Light";
+  src: url("/assets/fonts/FrutigerLTArabic45Light.ttf") format("truetype");
+    font-weight: 400; /* الوزن: عادي */
   font-style: normal;
-  font-display: swap;
 }
 
+/* تعريف الخط العريض */
 @font-face {
-  font-family: 'FFShamelFamily';
-  src: url('../assets/fonts/FFShamelFamily-UniqueBold.otf') format('opentype');
-  font-weight: 700;
+  font-family: "FrutigerLTArabic55Roman";
+  src: url("/assets/fonts/FrutigerLTArabic55Roman.ttf") format("truetype");
+   font-weight: 700; /* الوزن: Bold */
   font-style: normal;
-  font-display: swap;
+}
+
+/* استخدام الخط */
+body {
+  font-family: FrutigerLTArabic55Roman,FrutigerLTArabic45Light;
 }
 
 /* CSS Variables - Color Palette */
@@ -27,7 +32,7 @@
   --text-primary: var(--primary-darkest);
   --text-secondary: var(--primary-medium);
   --text-white: var(--white);
-  --font-family-primary: 'FFShamelFamily', 'Arabic UI Text', 'Geeza Pro', 'Traditional Arabic', Arial, sans-serif;
+  --font-family-primary: FrutigerLTArabic55Roman, FrutigerLTArabic45Light;
 }
 
 /* Global Styles */
@@ -44,7 +49,7 @@ body {
 }
 
 body {
-  font-family: var(--font-family-primary);
+  font-family:var(--font-family-primary);
   color: var(--text-primary);
   background: var(--primary-lightest);
   -webkit-font-smoothing: antialiased;
@@ -340,7 +345,6 @@ a {
   color: var(--text-primary);
   margin-bottom: 1.5rem;
   line-height: 1.2;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 1s ease-out;
 }
 
@@ -802,6 +806,7 @@ a {
 }
 
 .projects-section .details-button {
+  font-family: var(--font-family-primary);
   background-color: var(--primary-darkest);
   color: var(--white);
   border: 1px solid transparent;
@@ -820,7 +825,8 @@ a {
 
 .projects-section .details-button:hover {
   transform: translateY(-2px);
-  background-color: var(--primary-light);
+  background-color:  var(  --primary-lightest);
+  border: solid 2px var(--primary-darkest);
   color: var(--primary-darkest);
 }
 
