@@ -335,11 +335,12 @@ a {
 }
 
 .hero-section .hero-title {
-  font-size: 3.2rem;
+  font-size: 4rem;
   font-weight: bold;
   color: var(--text-primary);
   margin-bottom: 1.5rem;
   line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 1s ease-out;
 }
 
@@ -347,9 +348,10 @@ a {
   font-size: 1.2rem;
   color: black;
   line-height: 1.6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 1s ease-out 0.3s both;
   direction: ltr;
-  text-align: right;
+  text-align: center;
 }
 
 .hero-section::before {
@@ -504,6 +506,117 @@ a {
   line-height: 1.6;
   color: var(--text-primary);
   text-align: center;
+  margin: 0;
+}
+
+
+/* ACHIEVEMENTS SECTION STYLES */
+.achievements-section {
+  background-color: var(--primary-lightest);
+  padding: 6rem 0;
+  direction: rtl;
+}
+
+.achievements-section .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.achievements-section .header {
+  text-align: right;
+  margin-bottom: 4rem;
+}
+
+.achievements-section .subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.achievements-section .title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-darkest);
+  line-height: 1.2;
+}
+
+.achievements-section .achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.achievements-section .achievement-card {
+  background-color: var(--white);
+  border-radius: 16px;
+  height: 250px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.achievements-section .achievement-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+.achievements-section .card-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.achievements-section .badge-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+}
+
+.achievements-section .badge-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.achievements-section .badge-image:hover {
+  transform: scale(1.05);
+}
+
+.achievements-section .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.achievements-section .achievement-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-darkest);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.achievements-section .achievement-subtitle {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.achievements-section .achievement-year {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  font-weight: 500;
   margin: 0;
 }
 
@@ -920,26 +1033,28 @@ a {
   gap: 3rem;
   max-width: 1000px;
   margin: 0 auto;
+  text-align: end;
 }
 
 .vision-mission-section .card {
-  background: var(--white);
+  /* background: var(--white); */
   padding: 2.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  /* border-radius: 12px; */
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
 }
 
-.vision-mission-section .card:hover {
+/* .vision-mission-section .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .vision-mission-section .card-content {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
+  justify-content: flex-start;
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -1140,7 +1255,7 @@ a {
 
 /* REGISTRATION FORM SECTION STYLES */
 .registration-form-section {
-  background-color: var(--white);
+  background-color: var(--primary-lightest);
   padding: 6rem 0;
   direction: rtl;
 }
@@ -1678,7 +1793,7 @@ a {
   }
 
   .about-section .profile-button {
-    width: 35%;
+    width: 100%;
     justify-content: center;
     padding: 1rem 1.5rem;
     font-size: 1rem;
@@ -1776,30 +1891,22 @@ a {
   .language-toggle{
     display: none;
   }
-  
+
+  .projects-section .specs{
+    flex-wrap: nowrap;
+  }
+
+  .project-title{
+    font-size: 1rem;
+  }
+
+  .project-details{
+    flex-direction: row;
+  }
 
   .hero-section .hero-title {
     font-size: 2rem;
-    display: block;
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
-        text-align: center;
-        margin-bottom: 120px;
-        justify-content: center;
-        margin: 0 auto;
   }
-
-
-
-.specs{
-  display: flex;
-  align-items: center;
-}
-
-.projects-section .details-button{
-  font-size: 1.1rem;
-}
-
 
   .hero-section .hero-content{
     bottom: 50px;
@@ -1827,6 +1934,11 @@ a {
     max-width: 150px;
   }
 
+  /* .card-content{
+    flex-direction: column;
+    justify-content: center;
+  } */
+
   .projects-section .title,
   .why-dyari-section .title,
   .vision-mission-section .title,
@@ -1835,7 +1947,7 @@ a {
   }
 
   .why-dyari-section .features-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     max-width: 350px;
     margin: 0 auto;
@@ -1847,6 +1959,59 @@ a {
     max-width: 350px;
     margin: 0 auto;
   }
+
+    .achievements-section {
+    padding: 3rem 0;
+  }
+
+  .achievements-section .container {
+    padding: 0 1rem;
+  }
+
+  .achievements-section .header {
+    margin-bottom: 2.5rem;
+  }
+
+  .achievements-section .title {
+    font-size: 2rem;
+  }
+
+  .achievements-section .subtitle {
+    font-size: 1rem;
+  }
+
+  .achievements-section .achievements-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .achievements-section .achievement-card {
+    padding: 1.5rem;
+  }
+
+  .achievements-section .card-content {
+    gap: 1.25rem;
+  }
+
+  .achievements-section .badge-container {
+    width: 90px;
+    height: 90px;
+  }
+
+  .achievements-section .achievement-title {
+    font-size: 1.2rem;
+  }
+
+  .achievements-section .achievement-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .achievements-section .achievement-year {
+    font-size: 1rem;
+  }
+
 
   .core-values-section .core-values-grid {
     grid-template-columns: 1fr;
