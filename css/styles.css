@@ -1,15 +1,15 @@
 /* Custom Font Import */
 @font-face {
-  font-family: 'Alexandria';
-  src: url('/assets/fonts/Alexandria-Medium.ttf') format('opentype');
+  font-family: 'FFShamelFamily';
+  src: url('../assets/fonts/FFShamelFamily-UniqueMedium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Alexandria';
-  src: url('/assets/fonts/Alexandria-Medium.ttf') format('opentype');
+  font-family: 'FFShamelFamily';
+  src: url('../assets/fonts/FFShamelFamily-UniqueBold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@
   --text-primary: var(--primary-darkest);
   --text-secondary: var(--primary-medium);
   --text-white: var(--white);
-  --font-family-primary: 'Alexandria', 'Arabic UI Text', 'Geeza Pro', 'Traditional Arabic', sans-serif;
+  --font-family-primary: 'FFShamelFamily', 'Arabic UI Text', 'Geeza Pro', 'Traditional Arabic', Arial, sans-serif;
 }
 
 /* Global Styles */
