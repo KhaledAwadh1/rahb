@@ -1892,7 +1892,7 @@
 /* Small screens (Mobiles): خلي الارتفاع نصف الشاشة + شوي */
 @media (max-width: 640px) {
   .hero {
-    height: 60vh; /* نصف الشاشة وأكثر شوي */
+    height:75vh; /* نصف الشاشة وأكثر شوي */
   }
 }
 
