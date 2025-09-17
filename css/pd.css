@@ -178,7 +178,7 @@
     .navbar .nav-link {
     color: #333333;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 400;
     position: relative;
     transition: color 0.3s ease;
@@ -820,3 +820,17 @@
             font-size: 14px;
         }
     }
+}
+
+.copyright{
+  margin-top: 1.6rem;
+  text-align: center;
+  color: #f8e5db;
+
+}
+
+@media (max-width: 480px) {
+  .copyright{
+    font-size: 0.3rem;
+  }
+}
