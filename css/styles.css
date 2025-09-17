@@ -1057,6 +1057,7 @@ a {
   color: var(--white);
   margin-bottom: 2rem;
   line-height: 1.2;
+  text-align: center;
 }
 
 .core-value-icon{
@@ -1350,6 +1351,11 @@ a {
   animation: fadeInUp 0.8s ease-out;
 }
 
+.rahb-logo{
+  padding: 1.6rem 0 0 0;
+  max-width: 6rem;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
   .navbar .nav-items {
@@ -1639,7 +1645,10 @@ a {
 }
 
 @media (max-width: 480px) {
-
+.rahb-logo{
+  padding: 0.5rem 0 0 0;
+  max-width: 4rem;
+}
  .projects-section .details-button{
     font-size: 1.5rem;
     padding: 0.6rem 0.6rem;
