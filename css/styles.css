@@ -500,7 +500,7 @@ a {
 /* PROJECTS SECTION STYLES */
 .projects-section {
   background-color: var(--primary-lightest);
-  padding: 6rem 0;
+  padding:0 6rem 0 0;
   direction: rtl;
 }
 
@@ -1103,7 +1103,7 @@ a {
 /* REGISTRATION FORM SECTION STYLES */
 .registration-form-section {
   background-color: var(--primary-lightest);
-  padding: 6rem 0;
+  padding:0 0 6rem  0;
   direction: rtl;
 }
 
