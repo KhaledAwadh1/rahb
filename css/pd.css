@@ -826,11 +826,13 @@
   margin-top: 1.6rem;
   text-align: center;
   color: #f8e5db;
+      font-size:1.6rem;
+
 
 }
 
 @media (max-width: 480px) {
   .copyright{
-    font-size: 0.3rem;
+    font-size: 0.8rem;
   }
 }
