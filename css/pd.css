@@ -332,7 +332,6 @@
     .details-txt{   
         max-width: 120rem;
     display: flex;
-    align-items: center;
     justify-self: unset;
     gap: 8.4rem;
     margin: 0 auto;
