@@ -1,60 +1,391 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>الموقع تحت التطوير</title>
-  <style>
-      /* Custom Font Import */
-  /* تعريف الخط العادي */
-  @font-face {
-    font-family: "FrutigerLTArabic45Light";
-    src: url("/assets/fonts/FrutigerLTArabic45Light.ttf") format("truetype");
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رحـــب - التطوير العقاري النوعي</title>
+    <meta name="description" content="شركة ديــاري من أبرز شركات التطوير العقاري بالمملكة العربية السعودية. نطور مشاريع عقارية نوعية تجمع بين الإبداع والجودة العالية.">
+    <meta name="keywords" content="ديــاري, التطوير العقاري, المملكة العربية السعودية, مشاريع سكنية, عقارات">
     
-      font-weight: 400; /* الوزن: عادي */
-    font-style: normal;
-  }
-
-  /* تعريف الخط العريض */
-  @font-face {
-    font-family: "FrutigerLTArabic55Roman";
-    src: url("/assets/fonts/FrutigerLTArabic55Roman.ttf") format("truetype");
-    font-weight: 700; /* الوزن: Bold */
-    font-style: normal;
-  }
-
-  /* استخدام الخط */
- 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
     
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: FrutigerLTArabic55Roman,FrutigerLTArabic45Light;
-      background: #F9F4EF;
-      color: #412e1a;
-      text-align: center;
-    }
-    .container {
-      padding: 20px;
-    }
-    h1 {
-      font-size: 2rem;
-    }
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 1.5rem;
-      }
-    }
-  </style>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="رحــــب - التطوير العقاري النوعي">
+    <meta property="og:description" content="رحـب للتطوير والاستثمار العقاري">
+<meta property="og:image" content="assets/images/الشعار الجديد-02">
+    <!-- لتوافق تويتر -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="رحب - التطوير العقاري النوعي">
+<meta name="twitter:description" content="رحـب للتطوير والاستثمار العقاري">
+<meta name="twitter:image" content="assets/images/الشعار الجديد-02">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
 </head>
 <body>
-  <div class="container">
-    <h1> الموقع تحت التطوير... </h1>
-  </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/الشعار الجديد-02.png" alt="RAHB" >
+                </a>
+            </div>
+
+            <!-- Navigation Items -->
+            <div class="nav-items">
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">الرئيسية</a>
+                    <a href="contact.html" class="nav-link">المشاريع</a>
+                    <a href="about.html" class="nav-link">من نحن</a>
+                </div>
+            </div>
+
+          
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button" aria-label="Toggle mobile menu">
+                <span class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+         <section class="hero">
+    <img src="/assets/images/flah bulding.jpg" class="active" alt="Slide 1">
+    <img src="/assets/images/narjs (1) copy.jpg" alt="Slide 2">
+  </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="container">
+                <div class="content">
+
+                    <div>
+                        <img class="about-logo" src="./assets/images/الشعار الجديد-02.png" alt="RAHB">
+                    </div>
+                    <!-- Text content -->
+                    <div class="text-content">
+                        <h2 class="title">عن رحــب</h2>
+                        <div class="description">
+                            <p>تعد شركة رحب من شركات الرائدة في التطوير العقاري بخبرات ممتدة ورؤيتنا ان نكون رواداً في التطوير العقاري النوعي بالمملكة ونموذجا في الإبداع والاحترافية وأن نسهم في تحقيق رؤية المملكة 2030</p>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Vision and Mission Cards -->
+                  
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <!-- Header -->
+              
+                    <div>
+                        <h2 class="title">مشاريعنا</h2>
+                    </div>
+              
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+
+
+                    <!-- Project 1 -->
+                    <div class="project-card-container available">
+                        <div class="project-card">
+                            <!-- Project Image -->
+                            <div class="project-image">
+                                <!-- Status Badge -->
+                                <div class="status-badge available">متاح</div>
+                                <img src="/assets/images/flah bulding.jpg" alt="ديــاري كومبــاوند أشبيليا">
+                            </div>
+
+                            <!-- Project Info -->
+                            <div class="project-info">
+                                <div class="project-info-content">
+                                    <div>
+                                        <h3 class="project-title">رحب 103</h3>  
+                                    </div>                
+                                    <div class="project-details">
+                                        <div class="location">
+                                            <span class="location-icon">
+                                                <img src="assets/svgs/map-pin.svg" alt="location" width="20" height="20">
+                                            </span>
+                                            المدينة: الرياض - الحي: الفلاح
+                                        </div>
+                                        
+                                        <div class="specs">
+                                            <div class="spec">
+                                                <span class="spec-icon">
+                                                    <img src="assets/svgs/building.svg" alt="building" width="20" height="20">
+                                                </span>
+                                                <span>نوع الوحدات: أدوار</span>
+                                            </div>
+                                            <div class="spec">
+                                                <span class="spec-icon">
+                                                    <img src="assets/svgs/box.svg" alt="box" width="15" height="15">
+                                                </span>
+                                                <span>عدد الوحدات 9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Details Button -->
+                                <button class="details-button">
+                                    <a href="/porject-details.html" > تفاصيل أكثر
+                                    <span class="arrow-icon">←</span></a>
+                                   
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+               <!-- Project 2 -->
+                    <div class="project-card-container available">
+                        <div class="project-card">
+                            <!-- Project Image -->
+                            <div class="project-image">
+                                <!-- Status Badge -->
+                                <div class="status-badge available">متاح</div>
+                                <img src="/assets/images/narjs (1) copy.jpg" alt="ديــاري كومبــاوند أشبيليا">
+                            </div>
+
+                            <!-- Project Info -->
+                            <div class="project-info">
+                                <div class="project-info-content">
+                                    <div>
+                                        <h3 class="project-title">رحب 105</h3>  
+                                    </div>                
+                                    <div class="project-details">
+                                        <div class="location">
+                                            <span class="location-icon">
+                                                <img src="assets/svgs/map-pin.svg" alt="location" width="20" height="20">
+                                              </span>
+                                            المدينة: الرياض - الحي: النرجس
+                                        </div>
+                                        
+                                        <div class="specs">
+                                            <div class="spec">
+                                                <span class="spec-icon">
+                                                    <img src="assets/svgs/building.svg" alt="building" width="20" height="20">
+                                                </span>
+                                                <span>نوع الوحدات: أدوار</span>
+                                            </div>
+                                            <div class="spec">
+                                                <span class="spec-icon">
+                                                    <img src="assets/svgs/box.svg" alt="box" width="15" height="15">
+                                                </span>
+                                                <span>عدد الوحدات 9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Details Button -->
+                                <button class="details-button">
+                                   <a href="/narjs-bulding.html" > تفاصيل أكثر
+                                    <span class="arrow-icon">←</span></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                               
+
+                      <!-- Project 3 -->
+                    <div class="project-card-container available">
+                        <div class="project-card">
+                            <!-- Project Image -->
+                            <div class="project-image">
+                                <!-- Status Badge -->
+                                <div class="status-badge available">مباع</div>
+                                <img src="/assets/images/project-3.jpg" alt="ديــاري كومبــاوند أشبيليا">
+                            </div>
+
+                            <!-- Project Info -->
+                            <div class="project-info">
+                                <div class="project-info-content">
+                                    <div>
+                                        <h3 class="project-title">رحب 101</h3>  
+                                    </div>                
+                                    <div class="project-details">
+                                        <div class="location">
+                                            <span class="location-icon">
+                                                <img src="assets/svgs/map-pin.svg" alt="location" width="20" height="20">
+                                              </span>
+                                            المدينة: الرياض - الحي: النزهة
+                                        </div>
+                                        
+                                        <div class="specs">
+                                            <div class="spec">
+                                                <span class="spec-icon">
+                                                    <img src="assets/svgs/building.svg" alt="building" width="20" height="20">
+                                                </span>
+                                                <span>النوع: شقق</span>
+                                            </div>
+                                            <div class="spec">
+                                                <span class="spec-icon">
+                                                    <img src="assets/svgs/box.svg" alt="box" width="15" height="15">
+                                                </span>
+                                                <span>عدد الوحدات 13</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Details Button -->
+                                <button class="details-button">
+                                   <a href="#" > تفاصيل أكثر
+                                    <span class="arrow-icon">←</span></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+              
+                </div>
+            
+           
+            </div>  
+              <!-- View More Button
+                <div class="view-more-container">
+                    <button class="view-more-button">
+                        عرض المزيد
+                        <span class="arrow-icon">←</span>
+                    </button> -->
+                    
+        </section>
+
+        <!-- Why Dyari Section -->
+        <section class="why-dyari-section">
+            <div class="container">
+                <!-- Header -->
+                <div class="header">
+                    <h2 class="title">لماذا رحب ؟</h2>
+                    <p class="description">
+                        مايميز رحب هو فريق عملنا الاحترافي واستخدام أحدث الأساليب في إدارة وتنفيذ المشاريع ، وتطوير مشاريع عقارية نوعية تجمع بين الإبداع والجودة العالية ، ونحرص على تقديم حلول عقارية متكاملة ومستدامة تلبي مختلف إحتياجات عملائنا.
+                    </p>
+                </div>
+
+                <!-- Features Grid -->
+                <div class="features-grid">
+                    <!-- Feature 1 -->
+                    <div class="feature-card">
+                        <div class="icon-container">
+                            <div class="icon">
+                                <img src="assets/images/home.png" alt="مساكن ذكية" width="60" height="60">
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">مساكن ذكية</h3>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="feature-card">
+                        <div class="icon-container">
+                            <div class="icon">
+                                <img src="assets/images/house-1.png" alt="واجهات حديثة" width="60" height="60">
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">واجهات حديثة</h3>
+                        </div>
+                    </div>
+
+                
+
+                    <!-- Feature 4 -->
+                    <div class="feature-card">
+                        <div class="icon-container">
+                            <div class="icon">
+                                <img src="assets/images/designing.svg" alt="جودة عالية" width="60" height="60">
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">جودة عالية</h3>
+                        </div>
+                    </div>
+
+                  
+
+                    <!-- Feature 6 -->
+                    <div class="feature-card">
+                        <div class="icon-container">
+                            <div class="icon">
+                                <img src="assets/images/badge-1.png" alt="فريق عمل وإدارة طموحة" width="60" height="60">
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="feature-title">فريق عمل وإدارة طموحة</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+             <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                  <!-- Right Section - Logo and Social -->
+              
+
+                
+
+                
+
+                                    <!-- Important Links Section -->
+                    <div class="footer-section">
+                        <h3 class="section-title">روابط مهمة</h3>
+                        <ul class="links-list">
+                            <li><a href="index.html" class="footer-link">الرئيسية</a></li>
+                            <li><a href="about.html" class="footer-link">عن رحـــب</a></li>
+                            <li><a href="#projects" class="footer-link">المشاريع</a></li>
+                        </ul>
+                    </div>
+
+                      <div class="right-section">
+                    <!-- DYARI Logo -->
+                    <div class="dyari-logo">
+                        <img src="assets/images/rahb-2.png" alt="DYARI Logo" >
+                    </div>  
+                </div>
+
+                    <!-- Middle Sections - Links -->
+                <div class="middle-sections">
+                    <!-- Contact Section -->
+                    <div class="footer-section">
+                        <h3 class="section-title">للتواصل</h3>
+                        <ul class="links-list">
+                            <li><a href="contact.html" class="footer-link">تواصل معنا</a></li>
+                            <div class="fal-number">0564616146</div>
+                            <div class="fal-number">0570745499</div>
+
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+             <p class="copyright">&copy; جميع الحقوق محفوظة رحب 2025</p>
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
 </body>
 </html>
