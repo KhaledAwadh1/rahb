@@ -593,6 +593,9 @@
   .projects-section .status-badge.available {
     background-color: #ff4757;
   }
+  .projects-section .status-badge.available2 {
+    background-color: #19ac56;
+  }
 
   .projects-section .status-badge.sold {
     background-color: #ff4757;
