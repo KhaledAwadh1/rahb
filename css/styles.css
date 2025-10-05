@@ -1249,6 +1249,19 @@
     transform: translateY(-2px);
   }
 
+  /*Whatsapp BTN */
+
+.whatsapp-btn{
+  position: fixed;
+  bottom: 0.94rem;
+  right: 0.94rem;
+  max-width: 1rem;
+  height: auto;
+}
+.whatsapp-btn img{
+  width: 4rem;
+  height: auto;
+}
 
   /* FOOTER STYLES */
   .footer {
