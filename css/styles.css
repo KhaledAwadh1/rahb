@@ -1822,6 +1822,10 @@
       justify-items: center;
     }
 
+    .whatsapp-btn img{
+  width: 3rem;
+  height: auto;
+}
     
 
     .footer .footer-content {
