@@ -1113,6 +1113,7 @@
     background-color: var(--primary-lightest);
     padding:0 0 6rem  0;
     direction: rtl;
+    display: none;
   }
 
   .registration-form-section .container {
@@ -1493,6 +1494,7 @@
       text-align: center;
     }
 
+   
     .registration-form-section .form-row-main {
       grid-template-columns: 1fr 1fr;
       gap: 1.5rem;
