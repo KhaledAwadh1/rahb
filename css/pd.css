@@ -2,7 +2,7 @@
 /* تعريف الخط العادي */
 @font-face {
   font-family: "FrutigerLTArabic45Light";
-  src: url("/assets/fonts/FrutigerLTArabic45Light.ttf") format("truetype");
+  src: url("../assets/fonts/FrutigerLTArabic45Light.ttf") format("truetype");
   font-weight: 400; /* الوزن: عادي */
   font-style: normal;
 }
@@ -10,7 +10,7 @@
 /* تعريف الخط العريض */
 @font-face {
   font-family: "FrutigerLTArabic55Roman";
-  src: url("/assets/fonts/FrutigerLTArabic55Roman.ttf") format("truetype");
+  src: url("../assets/fonts/FrutigerLTArabic55Roman.ttf") format("truetype");
   font-weight: 700; /* الوزن: Bold */
   font-style: normal;
 }
